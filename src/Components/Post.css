@@ -1,0 +1,138 @@
+.post_poster{
+    display: flex;
+   margin: 0;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    padding: 10px;
+    
+    height: 100%;
+    width: 20%;
+    
+  
+}
+.avatar {
+    width: 80px;
+    
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .post2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .post{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  }
+  .post2-container{
+  display: flex;  
+  
+  width: 100%;
+  
+  
+  }
+.post-container{
+    display: flex;
+   height: auto;
+   
+    
+}
+.reply_field{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.reply_field button{
+   padding: 20px;
+   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    font-size:24px ;
+    color: white;
+  ;
+    outline: none;
+    border: none;
+    background-color: black;
+}
+.reply_field input::placeholder{
+    color: white;
+}
+.reply_field input{
+    outline: none;
+    background-color: gray;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    
+    padding: 20px;
+  
+    border: none;
+    font-size: 24px;
+}
+    
+button {
+    cursor: pointer;
+}
+.icon{
+   
+   width:60px;
+   height: 40px;
+   cursor: pointer;
+}
+.post-problem{
+    width: 100%;
+    margin: 0;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    padding: 60px;
+
+    
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.post-container button{
+    padding: 20px;
+    background-color: gray;
+    border: none;
+    outline: none;
+    border: radius 5px; 
+    font-size: 16px;
+    font-weight: 700;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    
+
+}
+.post2-container button{
+    padding: 20px;
+    background-color: gray;
+    border: none;
+    outline: none;
+    border: radius 5px; 
+    font-size: 16px;
+    font-weight: 700;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    
+
+}
